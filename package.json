@@ -1,0 +1,29 @@
+{
+  "name": "getting_started_with_webrtc",
+  "version": "1.0.0",
+  "description": "a simple app trying out the features of webrtc",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "nodemon src/index.js --exec babel-node --presets babel-preset-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swati020494/webrtcDemo.git"
+  },
+  "author": "Swati Mukherjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swati020494/webrtcDemo/issues"
+  },
+  "homepage": "https://github.com/Swati020494/webrtcDemo#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3"
+  }
+}
