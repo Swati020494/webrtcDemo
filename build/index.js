@@ -9,7 +9,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var app = (0, _express2.default)();
 var PORT = process.env.PORT || 8080;
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.send('Hello Swats!');
 });
 app.listen(PORT, function () {
   console.log('Example app listening on port ' + PORT + '!');
