@@ -19,9 +19,7 @@
   "homepage": "https://github.com/Swati020494/webrtcDemo#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "nodemon": "^1.18.4"
-  },
-  "devDependencies": {
+    "nodemon": "^1.18.4",
     "babel-preset-env": "^1.7.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3"
